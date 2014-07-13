@@ -36,7 +36,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-#gem 'thin'
+gem 'thin'
 gem 'pg'
 
 # Use ActiveModel has_secure_password
