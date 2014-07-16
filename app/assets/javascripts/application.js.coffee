@@ -14,7 +14,10 @@
 #= require jquery_ujs
 #= require foundation
 #= require turbolinks
+#= require jquery.flexverticalcenter.js
 #= require_tree .
 
 $ ->
   $(document).foundation()
+  $('#content').flexVerticalCenter
+    verticalOffset: '10px'

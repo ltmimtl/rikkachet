@@ -1,13 +1,15 @@
-#top.row
-  .medium-offset-5.medium-7.large-offset-7.large-5.columns
+#wrapper
+  #content
+    #top.row
+      .medium-offset-5.medium-7.large-offset-7.large-5.columns
+        .row
+          .small-7.columns
+            =link_to image_tag("facebook.png"), "https://www.facebook.com/rikkachet"
+          .small-5.columns
+            =link_to image_tag("email.png"), "mailto:rp@rikkachet.harlanray.com"
+        .row
+          .small-6.small-offset-4.columns
+            =link_to image_tag("vimeo.png"), "https://vimeo.com/rikkachet"
     .row
-      .small-7.columns
-        =link_to image_tag("facebook.png"), "https://www.facebook.com/rikkachet"
-      .small-5.columns
-        =link_to image_tag("email.png"), "mailto:rp@rikkachet.harlanray.com"
-    .row
-      .small-6.small-offset-4.columns
-        =link_to image_tag("vimeo.png"), "https://vimeo.com/rikkachet"
-.row
-  .medium-10.large-6.small-centered.columns
-    =image_tag "main.png"
+      .medium-10.large-6.small-centered.columns
+        =image_tag "main.png"
