@@ -14,10 +14,18 @@
  *= require_tree .
  */
 
+$include-html-global-classes: false;
+@import "foundation/components/global";
+
 #top {
   padding-top: 6rem;
 }
 
 #footer {
-  padding-top: 10rem;
+  @media #{$small-only} {
+    padding-top: 5rem;
+  }
+  @media #{$medium-up} {
+    padding-top: 10rem;
+  }
 }
